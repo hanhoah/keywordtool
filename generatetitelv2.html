@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+<textarea rows="4" cols="100" maxlength="200" id="alltext" onclick="countChar(this)"></textarea>
+<p>Noch verfügbare Zeichen: <span id="charNum">200</span></p>
+<p>Achtung! Amazon.com straft in den USA zu lange Artikelbezeichnungen ab: Werden mehr als 200 Zeichen verwendet, verschwindet das Produkt aus den Suchergebnissen. </p>
+<a target="_blank" href="http://sonar-tool.com/de/">Keyword Ideen</a>
+
+<table border="1">
+<tr><!-- erste Reihe --> 
+<td valign="top"><b>Allgemein</b>
+<ul onclick="addText(event)">
+<li>JUMEX Damenschuhe</li>
+<li>JUMEX Damen</li>
+<li>JUMEX Herrenschuhe</li>
+<li>JUMEX Kinderschuhe</li>
+<li>JUMEX&reg;</li> 
+<li>Glitzer</li>
+<li>Strasssteine</li>
+<li>elegant</li>
+<li>stylisch</li>
+<li>trendige</li>
+<li>Fitness</li>
+</ol>
+</td>
+
+<td valign="top"><b>Kategorie</b>
+<ul onclick="addText(event)">
+<li>Ballerina</li>
+<li>Sneaker</li>
+<li>High Heels</li>
+<li>Stiefel</li>
+<li>Sandalen</li>
+<li>Pumps</li>
+<li>Boots</li>
+<li>Freizeitschuhe</li>
+<li>Stiefeletten</li>
+<li>Keilabsatz</li>
+<li>Mokassins</li>
+<li>Partyschuhe</li>
+<li>Peeptoes</li>
+<li>Sandaletten</li>
+<li>Business-Schuhe</li>
+<li>Boots - Stiefel</li>
+<li>Sneakers</li>
+</ul>
+</td>
+
+<td valign="top"><b>Schuhart</b>
+<ul onclick="addText(event)">
+<li>Damen Schuhe Sneakers</li>
+<li>Low Sneaker</li>
+<li>Turnschuhe</li>
+</ul>
+</td>
+
+<td valign="top"><b>Saison</b>
+<ul onclick="addText(event)">
+<li>Fr&uuml;hling</li>
+<li>Sommer</li>
+<li>Herbst</li>
+<li>Winter</li>
+<li>Winterboots</li>
+<li>Winterschuhe</li>
+<li>Winterstiefel</li>
+<li>Allyear</li>
+</ul>
+</td>
+
+<td valign="top"><b>Material</b>
+<ul onclick="addText(event)">
+<li>Velours</li>
+<li>Veloursleder-Optik</li>
+<li>Velourslederoptik</li>
+<li>Veloursoptik</li>
+</ul>
+</td>
+</tr>
+
+<tr><!--zweite Reihe-->
+<td valign="top"><b>Sohle / Absatz</b>
+<ul onclick="addText(event)">
+<li>Bast Profilsohle</li>
+<li>Profilsohle</li>
+<li>Blockabsatz</li>
+<li>Bockabsatz</li>
+<li>Keilabsatz</li>
+<li>Plateau</li>
+</ul>
+</td>
+
+
+<td valign="top"><b>Stiefeletten (Häufig gesuchte Begriffe)</b>
+<ul onclick="addText(event)">
+<li>cowboy stiefeletten damen</li>
+<li>damenschuhe stiefeletten</li>
+<li>flache stiefeletten damen</li>
+<li>graue stiefeletten damen</li>
+<li>high heel stiefeletten</li>
+<li>high heels stiefeletten</li>
+<li>hohe stiefeletten damen</li>
+<li>keilabsatz stiefeletten</li>
+<li>lack stiefeletten</li>
+<li>offene stiefeletten</li>
+<li>peeptoe stiefeletten</li>
+<li>plateau stiefeletten</li>
+<li>schuhe damen stiefeletten</li>
+<li>schwarze stiefeletten</li>
+<li>schwarze stiefeletten damen</li>
+<li>schwarze stiefeletten mit absatz</li>
+<li>sommer stiefeletten</li>
+<li>sommer stiefeletten damen lochmuster</li>
+<li>sommer stiefeletten damen mit absatz</li>
+<li>sommer stiefeletten damen schwarz</li>
+<li>stiefeletten damen</li>
+<li>stiefeletten damen beige</li>
+<li>stiefeletten damen blau</li>
+<li>stiefeletten damen braun</li>
+<li>stiefeletten damen grau</li>
+<li>stiefeletten damen leder</li>
+<li>stiefeletten damen mit absatz</li>
+<li>stiefeletten damen schwarz</li>
+<li>stiefeletten damen sommer</li>
+<li>stiefeletten herren</li>
+<li>stiefeletten schwarz</li>
+<li>winter stiefeletten damen</li>
+</ul></li>
+</td>
+
+<td valign="top"><b>Adjektive</b>
+<ul onclick="addText(event)">
+
+<li>Klassische</li>
+<li>Bequem</li>
+</ul>
+</td>
+
+
+<td valign="top"><b>Muster/Optik/Verzierungen</b>
+<ul onclick="addText(event)">
+
+<li>Animal</li>
+<li>Animalprints</li>
+<li>Blumen</li>
+<li>Camouflage</li>
+</ul>
+</td>
+
+<td valign="top"><b>Anlass/Verwendung</b>
+<ul onclick="addText(event)">
+<li>Abiball</li>
+<li>Abschlussball</li>
+<li>Abendschuhe</li>
+<li>Beach</li>
+<li>Biker</li>
+<li>Bikerboots mit Nieten</li>
+<li>Biker boots damen schwarz</li>
+<li>Brautschuhe</li>
+<li>Business</li>
+<li>Fasching</li>
+<li>Festival</li>
+<li>Fitness</li>
+</ul>
+</td>
+
+
+<tr>
+
+<tr>
+<td colspan="5" valign="top">noch nicht kategorisiert
+<ul onclick="addText(event)">
+<i>Ankle</i>,
+<i>Block</i>,
+<i>Boho</i>,
+<i>Bommel</i>,
+<i>Booties</i>,
+<i>Boots</i>,
+<i>Brogues</i>,
+<i>Broschen</i>,
+<i>Bunt</i>,
+<i>Cap</i>,
+<i>Chelsea</i>,
+<i>Chunky</i>,
+<i>Cultz</i>,
+<i>Cut-Outs</i>,
+<i>Dandy</i>,
+<i>Denim</i>,
+<i>Derbe</i>,
+<i>Desert</i>,
+<i>Details</i>,
+<i>Dianetten</i>,
+<i>Echtleder</i>,
+<i>Espadrilles</i>,
+<i>Ethno</i>,
+<i>Extravagante</i>,
+<i>Farben</i>,
+<i>Feminine</i>,
+<i>Flach</i>,
+<i>Flache</i>,
+<i>Flats</i>,
+<i>Flechtung</i>,
+<i>Fransen</i>,
+<i>Freizeit</i>,
+<i>Freizeitschuhe</i>,
+<i>Gesteppt</i>,
+<i>Glanz</i>,
+<i>Glitzer</i>,
+<i>Glänzende</i>,
+<i>Gold</i>,
+<i>Grunge</i>,
+<i>Gummizug</i>,
+<i>Halbhohe</i>,
+<i>Halbschuhe</i>,
+<i>Hausschuhe</i>,
+<i>Heels</i>,
+<i>Helle</i>,
+<i>High</i>,
+<i>Hochfrontpumps</i>,
+<i>Hochzeit</i>,
+<i>Häkeloptik</i>,
+<i>Kappe</i>,
+<i>Karneval</i>,
+<i>Karomuster</i>,
+<i>Keilpumps</i>,
+<i>Keilsandaletten</i>,
+<i>Ketten</i>,
+<i>Kinder</i>,
+<i>Kitten</i>,
+<i>Klettverschluss</i>,
+<i>Knopf</i>,
+<i>Knöchelhohe</i>,
+<i>Komfort-Sandalen</i>,
+<i>Komfortable</i>,
+<i>Kostüm</i>,
+<i>Kroko</i>,
+<i>Kunstfell</i>,
+<i>Lack-Optik</i>,
+<i>Lack</i>,
+<i>Langschaft</i>,
+<i>Langschaftstiefel</i>,
+<i>Laufschuhe</i>,
+<i>Ledeoptik</i>,
+<i>Leder</i>,
+<i>Lederoptik</i>,
+<i>Leo-Prints</i>,
+<i>Leopard</i>,
+<i>Loafer</i>,
+<i>Loafers</i>,
+<i>Lochung</i>,
+<i>Lochungen</i>,
+<i>London</i>,
+<i>Look</i>,
+<i>Low</i>,
+<i>Mehrfarbig</i>,
+<i>Metallic</i>,
+<i>Modische</i>,
+<i>Muster</i>,
+<i>Neon</i>,
+<i>New</i>,
+<i>Nieten</i>,
+<i>Outdoor</i>,
+<i>Outdoorschuhe</i>,
+<i>Overknee</i>,
+<i>Overknees</i>,
+<i>Pailetten</i>,
+<i>Pailletten</i>,
+<i>Pantoffeln</i>,
+<i>Party</i>,
+<i>Partyschuhe</i>,
+<i>Peeptoes</i>,
+<i>Perlen</i>,
+<i>Plateaupumps</i>,
+<i>Plateausandaletten</i>,
+<i>Plateauschuhe</i>,
+<i>Plateaustiefel</i>,
+<i>Pom</i>,
+<i>Poms</i>,
+<i>Print</i>,
+<i>Prints</i>,
+<i>Profil</i>,
+<i>Profilsohle</i>,
+<i>Pumps</i>,
+<i>Punk</i>,
+<i>Quasten</i>,
+<i>Regenschuhe</i>,
+<i>Reiterstiefel</i>,
+<i>Retro</i>,
+<i>Riemchen</i>,
+<i>Riemchenpumps</i>,
+<i>Riemchensandalen</i>,
+<i>Riemchensandaletten</i>,
+<i>Robuste</i>,
+<i>Runners</i>,
+<i>Römersandalen</i>,
+<i>Samt</i>,
+<i>Samtoptik</i>,
+<i>Satin</i>,
+<i>Sation-Optik</i>,
+<i>Schaftsandalen</i>,
+<i>Schaftsandaletten</i>,
+<i>Schicke</i>,
+<i>Schleifen</i>,
+<i>Schlupfstiefel</i>,
+<i>Schlupfstiefeletten</i>,
+<i>Schnallen</i>,
+<i>Schnür</i>,
+<i>Schnürboots</i>,
+<i>Schnürer</i>,
+<i>Schnürpumps</i>,
+<i>Schnürschuhe</i>,
+<i>Schnürstiefel</i>,
+<i>Schnürstiefeletten</i>,
+<i>Schnürungen</i>,
+<i>Schuhe</i>,
+<i>Schuhspitze</i>,
+<i>Schutzkappe</i>,
+<i>Silber</i>,
+<i>Skaterschuhe</i>,
+<i>Slingpumps</i>,
+<i>Slip-Ons</i>,
+<i>Slip-ons</i>,
+<i>Slipper</i>,
+<i>Slippers</i>,
+<i>Snake</i>,
+<i>Sneaker-Wedges</i>,
+<i>Sneaker</i>,
+<i>Sneakers</i>,
+<i>Snowboots</i>,
+<i>Sommer</i>,
+<i>Sommerschuhe</i>,
+<i>Spitze</i>,
+<i>Sportliche</i>,
+<i>Sportschuhe</i>,
+<i>Squaw</i>,
+<i>Steine</i>,
+<i>Stickereien</i>,
+<i>Stiefel</i>,
+<i>Stiefelette</i>,
+<i>Stiefeletten</i>,
+<i>Stiletto</i>,
+<i>Stilettos</i>,
+<i>Stoff</i>,
+<i>Stoffschuhe</i>,
+<i>Strandschuhe</i>,
+<i>Strass</i>,
+<i>Streetstyle</i>,
+<i>Strick</i>,
+<i>Stulpen</i>,
+<i>Style</i>,
+<i>Stylische</i>,
+<i>T-Strap</i>,
+<i>Tanzschuhe</i>,
+<i>Textil</i>,
+<i>Top</i>,
+<i>Trainers</i>,
+<i>Transparent</i>,
+<i>Transparenter</i>,
+<i>Trendfarben</i>,
+<i>Trendige</i>,
+<i>Trendy</i>,
+<i>Turnschuhe</i>,
+<i>UNISEX</i>,
+<i>Unisex</i>,
+<i>Up</i>,
+<i>Vorne</i>,
+<i>Warm</i>,
+<i>Wedge</i>,
+<i>Wedges</i>,
+<i>Weiss</i>,
+<i>Wildleder-Optik</i>,
+<i>Wildlederoptik</i>,
+<i>Worker</i>,
+<i>Zehentrenner</i>,
+<i>Zierknöpfe</i>,
+<i>Zierperlen</i>,
+<i>Zipper</i>,
+<i>gefüttert</i>,
+<i>Übergangsschuhe</i>,
+</ul>,
+</td>
+</tr>
+</table>
+</body>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script>
+      function countChar(val) {
+        var len = val.value.length;
+        if (len >= 200) {
+          val.value = val.value.substring(0, 200);
+        } else {
+          $('#charNum').text(200 - len);
+        }
+      };
+
+function addText(event) {
+    var targ = event.target || event.srcElement;
+    document.getElementById("alltext").value += targ.textContent || targ.innerText;
+    document.getElementById("alltext").value += " ";
+    countChar(document.getElementById("alltext"));
+}
+</script>
+  </body>
+</html>
