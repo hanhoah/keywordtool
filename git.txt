@@ -1,0 +1,7 @@
+Install Git with Apt : 
+sudo apt-get update
+sudo apt-get install git
+
+Set Up Git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
